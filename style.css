@@ -1,0 +1,40 @@
+html {
+  font-size: 15px;
+}
+body {
+  margin: 0;
+  font-size: 1rem;
+  font-family: "Arial";
+  color: #000000;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+/*Blocks*/
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.header {
+  padding: 1.2rem;
+}
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+}
+.user {
+  display: flex;
+}
+.user__avatar {
+  width: 57px;
+  height: 57px;
+}
+.user__avatar img {
+  border-radius: 50%;
+}
+/*# sourceMappingURL=style.css.map */
