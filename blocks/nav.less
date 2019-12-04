@@ -3,6 +3,7 @@
 .nav {
   display: flex;
   height: 100%;
+  align-items: center;
 }
 
 .nav__link {
@@ -30,7 +31,7 @@
     transition: width .2s linear;
   }
 
-  &:hover, &.active {
+  &:hover:not(.nav__link--btn) {
     &:after {
       width: 100%;
     }
@@ -41,5 +42,11 @@
     border: 2px solid @black;
     border-radius: 20px;
 
+    &:hover {
+      background-color: @black;
+      color: @white;
+    }
   }
 }
+
+//https://youtu.be/CXRHPR3yDTM?t=595

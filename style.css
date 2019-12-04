@@ -55,6 +55,7 @@ body {
 .nav {
   display: flex;
   height: 100%;
+  align-items: center;
 }
 .nav__link {
   margin-left: 2rem;
@@ -77,13 +78,16 @@ body {
   z-index: 1;
   transition: width 0.2s linear;
 }
-.nav__link:hover:after,
-.nav__link.active:after {
+.nav__link:hover:not(.nav__link--btn):after {
   width: 100%;
 }
 .nav__link--btn {
   padding: 0.66rem 2rem;
   border: 2px solid #000000;
   border-radius: 20px;
+}
+.nav__link--btn:hover {
+  background-color: #000000;
+  color: #ffff;
 }
 /*# sourceMappingURL=style.css.map */
