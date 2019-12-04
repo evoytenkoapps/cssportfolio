@@ -41,9 +41,14 @@ body {
   padding-left: 9px;
 }
 .user__name {
+  margin-bottom: 3px;
   font-size: 1.06rem;
   line-height: 1.2;
   color: #000000;
   font-weight: 700;
+}
+.user__prof {
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 0.7);
 }
 /*# sourceMappingURL=style.css.map */
