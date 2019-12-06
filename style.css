@@ -90,4 +90,16 @@ body {
   background-color: #000000;
   color: #ffff;
 }
+.intro__inner {
+  display: flex;
+}
+.intro__content {
+  width: 50%;
+}
+.intro__subtitle {
+  font-size: 2.13rem;
+}
+.intro__photo {
+  width: 50%;
+}
 /*# sourceMappingURL=style.css.map */
