@@ -7,6 +7,14 @@ body {
   font-family: "Arial";
   color: #000000;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
 *,
 *:before,
 *:after {
@@ -116,6 +124,18 @@ body {
 }
 .intro__photo {
   width: 50%;
+}
+.social {
+  display: flex;
+  margin-bottom: 42px;
+}
+.social__link {
+  margin-right: 10px;
+  text-decoration: underline;
+  transition: transform 0.2s linear;
+}
+.social__link:hover {
+  transform: translateY(-5px);
 }
 .social__image {
   width: 50px;
