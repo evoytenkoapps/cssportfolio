@@ -9,6 +9,8 @@
   display: flex;
   padding-bottom: 120px;
   border-bottom: 1px solid fade(@grey, 30%);
+  position: relative;
+  background: url("../images/siluet.png") right bottom no-repeat;
 }
 
 .intro__content {
@@ -37,7 +39,11 @@
 }
 
 .intro__photo {
-  width: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  height: 100%;
 }
 
 
